@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import { useCallback } from 'react';
 
 const TechIcon = ({ children, className = "" }) => {
     return (
@@ -49,6 +50,12 @@ const LaravelIcon = () => (
   );
 
 const HeroSection = () => {
+    const scrollToWelcome = useCallback(() => {
+      const welcomeSection = document.getElementById('welcome-forti');
+      if (welcomeSection) {
+        welcomeSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, []);
   return (
     <section className="bg-black min-h-screen relative overflow-hidden flex items-center">
       {/* Decorative Blob */}
@@ -117,7 +124,7 @@ const HeroSection = () => {
               <button className="bg-[#293936] text-white px-8 py-3 rounded-full hover:bg-[#293936]/90 transition-colors">
                 Bergabung Sekarang
               </button>
-              <button className="border-2 border-[#293936] text-[#293936] px-8 py-3 rounded-full hover:bg-[#293936] hover:text-white transition-colors">
+              <button onClick={scrollToWelcome} className="border-2 border-[#293936] text-[#293936] px-8 py-3 rounded-full hover:bg-[#293936] hover:text-white transition-colors">
                 Pelajari Lebih Lanjut
               </button>
             </div>

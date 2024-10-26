@@ -9,7 +9,7 @@ const Introduction = () => {
       <div className="bg-white text-gray-800 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Text Content */}
-          <div className="text-center mb-16">
+          <div id='welcome-forti' className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#293936]">
               Welcome to <span className="text-[#4a5c58]">FORTI</span>
             </h1>
