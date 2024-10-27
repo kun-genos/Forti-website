@@ -1,13 +1,12 @@
-// pages/tentang/sejarah.js
 import React from 'react';
 import Image from 'next/image';
 
 const Sejarah = () => {
   const founders = [
-    { id: 1, name: "Irfan Triadi Saputra", role: "Ketua Pertama FORTI", image: "/images/founders/pendiri.png" },
-    { id: 2, name: "Muhammad Zaim Zamzami", role: "Pendiri", image: "/images/founders/pendiri.png" },
-    { id: 3, name: "Susi Nurindahsari", role: "Pendiri", image: "/images/founders/pendiri.png" },
-    { id: 4, name: "Syahrul Adi Mustofa", role: "Pendiri", image: "/images/founders/pendiri.png" },
+    { id: 1, name: "Irfan Triadi Saputra", role: "Ketua Pertama FORTI", image: "/images/founders/irfan.jpeg" },
+    { id: 2, name: "Muhammad Zaim Zamzami", role: "Pendiri", image: "/images/founders/zaim.png" },
+    { id: 3, name: "Susi Nurindahsari", role: "Pendiri", image: "/images/founders/susi.jpeg" },
+    { id: 4, name: "Syahrul Adi Mustofa", role: "Pendiri", image: "/images/founders/adi.jpeg" },
   ];
 
   return (
@@ -19,7 +18,7 @@ const Sejarah = () => {
         <div className="flex flex-col items-center mb-16">
           <div className="relative w-48 h-48 mb-4">
             <Image
-              src="/images/pendiri.png"
+              src="/images/founders/buIntan.jpeg"
               alt="Ibu Intan Dwi Af'idah"
               layout="fill"
               objectFit="cover"

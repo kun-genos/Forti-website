@@ -24,13 +24,7 @@ const Navbar = () => {
         { name: 'Workshop & Events', path: '/program/events' },
       ]
     },
-    anggota: {
-      items: [
-        { name: 'Daftar Anggota', path: '/anggota/daftar' },
-        { name: 'Alumni', path: '/anggota/alumni' },
-        { name: 'Prestasi', path: '/anggota/prestasi' },
-      ]
-    },
+    anggota: {path: '/anggota' },
     galeri: { path: '/galeri' },
     'artikel': {
       items: [
@@ -50,6 +44,11 @@ const Navbar = () => {
     } else {
       setActiveDropdown(key);
     }
+  };
+
+  const handleDropdownItemClick = () => {
+    setActiveDropdown(null);
+    setIsMenuOpen(false);
   };
 
   return (
@@ -111,6 +110,7 @@ const Navbar = () => {
                           href={item.path}
                           className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-[#293936] hover:text-white rounded-lg transition-colors mx-1"
                           role="menuitem"
+                          onClick={handleDropdownItemClick} // Tambahkan ini
                         >
                           {item.name}
                         </Link>
@@ -143,14 +143,8 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
           {Object.entries(navigation).map(([key, value]) => (
             <div key={key}>
-              {key === 'kontak' ? (
-                <Link
-                  href={value.path}
-                  className="block mx-2 my-2 px-4 py-2 text-center rounded-full bg-[#293936] text-white font-medium hover:bg-[#293936]/90 transition-all"
-                >
-                  {key}
-                </Link>
-              ) : value.items ? (
+              {/* ... (kode lainnya tetap sama) */}
+              {value.items ? (
                 <div>
                   <button
                     onClick={() => handleDropdown(key)}
@@ -165,6 +159,7 @@ const Navbar = () => {
                         key={item.name}
                         href={item.path}
                         className="block px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-[#293936] hover:bg-gray-50 rounded-lg transition-colors"
+                        onClick={handleDropdownItemClick} // Tambahkan ini
                       >
                         {item.name}
                       </Link>
