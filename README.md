@@ -45,7 +45,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Riky Raharjo - [@rikyraharjo](https://www.instagram.com/_rraharjo/)
 
-Project Link: [https://github.com/your-username/forti-web](https://github.com/your-username/forti-web)
+Project Link: [https://github.com/kun-genos/Forti-website](https://github.com/kun-genos/Forti-website)
 
 ---
 
