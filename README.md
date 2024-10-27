@@ -1,6 +1,6 @@
 # FORTI - Forum Riset Teknologi Informasi
 
-![FORTI Logo](public/images/forti-logo.JPG)
+![FORTI Logo](public/forti-logo.JPG)
 
 ## Deskripsi Proyek
 
