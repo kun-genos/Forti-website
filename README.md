@@ -23,7 +23,7 @@ FORTI (Forum Riset Teknologi Informasi) adalah sebuah website untuk study club y
 - **UI Components**:
   - Lucide React untuk ikon
 - **Deployment**:
-  - Vercel (diasumsikan, karena menggunakan Next.js)
+  - Vercel
 
 ## Instalasi dan Penggunaan
 
