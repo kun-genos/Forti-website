@@ -37,24 +37,6 @@ FORTI (Forum Riset Teknologi Informasi) adalah sebuah website untuk study club y
    
 5. Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
 
-## Struktur Proyek
-forti-web/
-├── public/
-│   └── images/
-├── src/
-│   ├── app/
-│   │   ├── anggota/
-│   │   ├── galeri/
-│   │   ├── kontak/
-│   │   ├── program/
-│   │   └── tentang/
-│   ├── components/
-│   └── styles/
-├── .next/
-├── package.json
-└── README.md
-
-
 ## Kontribusi
 
 Kami sangat menghargai kontribusi dari komunitas. Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti langkah-langkah berikut:
