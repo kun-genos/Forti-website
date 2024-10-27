@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FORTI - Forum Riset Teknologi Informasi
 
-## Getting Started
+![FORTI Logo](public/images/forti-logo.JPG)
 
-First, run the development server:
+## Deskripsi Proyek
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+FORTI (Forum Riset Teknologi Informasi) adalah sebuah website untuk study club yang berfokus pada riset teknologi dan pemrograman di Politeknik Harapan Bersama, Kota Tegal. Proyek ini bertujuan untuk menyediakan platform informasi dan interaksi bagi anggota FORTI serta mempromosikan kegiatan dan pencapaian komunitas.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Fitur Utama
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🏠 Halaman Beranda dengan informasi umum tentang FORTI
+- 👥 Profil Anggota dan Struktur Organisasi
+- 📚 Informasi Program (Programming Class, Research Club, Competition Team, Workshop & Events)
+- 🖼️ Galeri Kegiatan
+- 📰 Blog dan Artikel Teknologi
+- 📞 Halaman Kontak
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Teknologi yang Digunakan
 
-## Learn More
+- **Frontend**: 
+  - Next.js 13 (React Framework)
+  - Tailwind CSS untuk styling
+- **UI Components**:
+  - Lucide React untuk ikon
+- **Deployment**:
+  - Vercel (diasumsikan, karena menggunakan Next.js)
 
-To learn more about Next.js, take a look at the following resources:
+## Instalasi dan Penggunaan
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone repositori ini: git clone https://github.com/your-username/forti-web.git 
+   
+2. Masuk ke direktori proyek: cd forti-web
+   
+3. Install dependensi: npm install
+   
+4. Jalankan server pengembangan: npm run dev
+   
+5. Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Struktur Proyek
+forti-web/
+├── public/
+│   └── images/
+├── src/
+│   ├── app/
+│   │   ├── anggota/
+│   │   ├── galeri/
+│   │   ├── kontak/
+│   │   ├── program/
+│   │   └── tentang/
+│   ├── components/
+│   └── styles/
+├── .next/
+├── package.json
+└── README.md
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Kontribusi
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Kami sangat menghargai kontribusi dari komunitas. Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti langkah-langkah berikut:
+
+1. Fork repositori
+2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
+3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke branch (`git push origin feature/AmazingFeature`)
+5. Buka Pull Request
+
+## Lisensi
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Kontak
+
+Riky Raharjo - [@rikyraharjo](https://www.instagram.com/_rraharjo/)
+
+Project Link: [https://github.com/your-username/forti-web](https://github.com/your-username/forti-web)
+
+---
+
+Dibuat dengan oleh rikyraharjo
+
