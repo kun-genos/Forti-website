@@ -37,16 +37,6 @@ FORTI (Forum Riset Teknologi Informasi) adalah sebuah website untuk study club y
    
 5. Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
 
-## Kontribusi
-
-Kami sangat menghargai kontribusi dari komunitas. Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti langkah-langkah berikut:
-
-1. Fork repositori
-2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buka Pull Request
-
 ## Lisensi
 
 Distributed under the MIT License. See `LICENSE` for more information.
